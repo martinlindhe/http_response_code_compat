@@ -11,7 +11,7 @@
 		}
 	],
 	"require": {
-		"php": ">=5.0.0",
+		"php": ">=5.0.0"
 	}
 	"autoload": {
 		"files": ["lib/http_response_code_compat.php"]
