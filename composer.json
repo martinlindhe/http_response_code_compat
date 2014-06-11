@@ -1,0 +1,16 @@
+{
+	"name": "martinlindhe/http_response_code_compat",
+	"description": "A compatibility library for the php 5.4 function http_response_code",
+	"version": "1.0.0",
+	"homepage": "https://github.com/martinlindhe/http_response_code_compat",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Martin Lindhe",
+			"email": "martin@ubique.se",
+		}
+	],
+	"autoload": {
+		"files": ["lib/http_response_code_compat.php"]
+	}
+}
