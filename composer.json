@@ -7,7 +7,7 @@
 	"authors": [
 		{
 			"name": "Martin Lindhe",
-			"email": "martin@ubique.se",
+			"email": "martin@ubique.se"
 		}
 	],
 	"autoload": {
