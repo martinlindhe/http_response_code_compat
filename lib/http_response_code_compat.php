@@ -9,6 +9,7 @@ if (!function_exists('http_response_code')) {
             return $responseCode ? $responseCode : 200;
         }
 
+        $text = '';
         switch ($code) {
             case 100:
                 $text = 'Continue';
