@@ -104,6 +104,9 @@ if (!function_exists('http_response_code')) {
             case 415:
                 $text = 'Unsupported Media Type';
                 break;
+            case 426:
+                $text = 'Upgrade Required';
+                break;
             case 428:
                 $text = 'Precondition Required';
                 break;
