@@ -9,6 +9,7 @@ if (!function_exists('http_response_code')) {
             return $responseCode ? $responseCode : 200;
         }
 
+        $text = '';
         switch ($code) {
             case 100:
                 $text = 'Continue';
@@ -102,6 +103,9 @@ if (!function_exists('http_response_code')) {
                 break;
             case 415:
                 $text = 'Unsupported Media Type';
+                break;
+            case 426:
+                $text = 'Upgrade Required';
                 break;
             case 428:
                 $text = 'Precondition Required';
