@@ -1,5 +1,8 @@
 ## About
 
+[![Build Status](https://travis-ci.org/martinlindhe/http_response_code_compat.png?branch=master)](https://travis-ci.org/martinlindhe/http_response_code_compat)
+
+
 http_response_code() for php < 5.4
 
 
