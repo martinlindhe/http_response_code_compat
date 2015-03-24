@@ -5,9 +5,9 @@
     convertErrorsToExceptions="true"
     convertNoticesToExceptions="true"
     convertWarningsToExceptions="true"
-    strict="false"
     verbose="false"
     stderr="true"
+    bootstrap="vendor/autoload.php"
 >
 
     <testsuites>
@@ -22,9 +22,5 @@
             <directory>vendor</directory>
         </blacklist>
     </filter>
-
-    <logging>
-        <log type="coverage-html" target="coverage-report-html"/>
-    </logging>
 
 </phpunit>

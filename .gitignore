@@ -1,1 +1,3 @@
-coverage-report-html
+vendor
+composer.lock
+.idea
